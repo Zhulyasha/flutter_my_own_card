@@ -1,0 +1,40 @@
+name: flutter_own_card
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flip_card: ^0.6.0
+  qr_flutter: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - image/bg_rect_up.png
+    - image/bg_corner.png
+    - image/hand.png
+    - image/bg_rect_grey.png
+    - image/bg_email_rect.png
+    - image/bg_number_rect.png
+    - image/phone.png
+    - image/user.png
+    - image/me_photo.png
+
+
